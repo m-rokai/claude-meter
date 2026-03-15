@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "claude-meter"
+version = "0.1.0"
+description = "macOS menu bar app to track Claude AI usage, rate limits, and reset times"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.9"
+keywords = ["claude", "anthropic", "usage", "monitor", "macos", "menubar"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: MacOS",
+    "Programming Language :: Python :: 3",
+    "Topic :: Utilities",
+]
+dependencies = [
+    "rumps>=0.4.0",
+    "watchdog>=3.0.0",
+]
+
+[project.scripts]
+claude-meter = "claude_meter.app:main"
+
+[project.urls]
+Homepage = "https://github.com/your-username/claude-meter"
+Repository = "https://github.com/your-username/claude-meter"
+Issues = "https://github.com/your-username/claude-meter/issues"
+
+[tool.setuptools.packages.find]
+include = ["claude_meter*"]
