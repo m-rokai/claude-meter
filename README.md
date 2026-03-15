@@ -35,7 +35,7 @@ Download `Claude Meter.app` from [Releases](../../releases), move it to `/Applic
 ### Option B: Build from source
 
 ```bash
-git clone https://github.com/your-username/claude-meter.git
+git clone https://github.com/m-rokai/claude-meter.git
 cd claude-meter
 pip3 install -r requirements.txt
 
@@ -171,7 +171,7 @@ PRs welcome! Some ideas for future work:
 
 ```bash
 # Dev setup
-git clone https://github.com/your-username/claude-meter.git
+git clone https://github.com/m-rokai/claude-meter.git
 cd claude-meter
 pip3 install -e .
 python3 -m claude_meter

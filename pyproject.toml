@@ -27,9 +27,9 @@ dependencies = [
 claude-meter = "claude_meter.app:main"
 
 [project.urls]
-Homepage = "https://github.com/your-username/claude-meter"
-Repository = "https://github.com/your-username/claude-meter"
-Issues = "https://github.com/your-username/claude-meter/issues"
+Homepage = "https://github.com/m-rokai/claude-meter"
+Repository = "https://github.com/m-rokai/claude-meter"
+Issues = "https://github.com/m-rokai/claude-meter/issues"
 
 [tool.setuptools.packages.find]
 include = ["claude_meter*"]
